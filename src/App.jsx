@@ -5,6 +5,7 @@ import Banner from './components/Banner'
 import Services from './components/Services'
 import WhoWeAre from './components/WhoWeAre'
 import Showcase from './components/Showcase'
+import Process from './components/Process'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Services/>
      <WhoWeAre/>
      <Showcase/>
+     <Process/>
     </>
   )
 }

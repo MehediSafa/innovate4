@@ -16,10 +16,12 @@ const Banner = () => {
     <section className="mt-16 lg:mt-[95px]">
       <Container>
         {/* Main Div */}
-        <div className="flex flex-col lg:flex-row relative">
+        <div className=" flex flex-col  lg:flex-row relative">
           {/* Left Side */}
-          <div className="lg:w-1/2 w-full pb-12 lg:pb-[190px]">
-            <img className="mb-6 w-full max-w-sm lg:max-w-full" src={banner1} alt="Banner" />
+          <div className="z-50 lg:text-start text-center lg:w-1/2 w-full pb-12 lg:pb-[190px]">
+            <div className='flex lg:justify-start justify-center'>
+              <img className="" src={banner1} alt="Banner" />
+              </div>
             <h2 className="font-sans font-extrabold text-4xl lg:text-[72px] leading-tight">
               We Are Digital
             </h2>
