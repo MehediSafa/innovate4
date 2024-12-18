@@ -8,6 +8,7 @@ import Showcase from './components/Showcase'
 import Process from './components/Process'
 import Blog from './components/Blog'
 import Footer from './components/Footer'
+import Review from './components/Review'
 
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
      <WhoWeAre/>
      <Showcase/>
      <Process/>
+     <Review/>
      <Blog/>
+
      <Footer/>
     </>
   )
