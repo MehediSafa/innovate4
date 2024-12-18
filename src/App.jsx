@@ -1,31 +1,26 @@
 import React from 'react'
-import './App.css'
-import Header from './components/Header'
-import Banner from './components/Banner'
-import Services from './components/Services'
-import WhoWeAre from './components/WhoWeAre'
-import Showcase from './components/Showcase'
-import Process from './components/Process'
-import Blog from './components/Blog'
-import Footer from './components/Footer'
-import Review from './components/Review'
+import { createBrowserRouter,createRoutesFromElements,RouterProvider, Route } from 'react-router-dom'
+import './App.css'; 
+import Home from './pages/Home'; 
+import Layout from './components/Layout'
+
+
+
 
 
 function App() {
+let router = createBrowserRouter(createRoutesFromElements(
+  
+  <Route element={<Layout/>}>
+      <Route index element={<Home/>}>
 
+      </Route>
+  </Route>
+))
 
   return (
     <>
-     <Header/>
-     <Banner/>
-     <Services/>
-     <WhoWeAre/>
-     <Showcase/>
-     <Process/>
-     <Review/>
-     <Blog/>
-
-     <Footer/>
+     <RouterProvider router={router}></RouterProvider>
     </>
   )
 }

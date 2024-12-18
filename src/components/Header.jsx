@@ -4,6 +4,7 @@ import logo from '../assets/Logo.png';
 import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
@@ -33,7 +34,8 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden lg:flex w-2/4 justify-center">
-            <ul className="flex space-x-8 items-center">
+            <ul className="flex space-x-8 items-center">]\
+              
               <li className="font-semibold text-lg text-black hover:text-[#FF7628] cursor-pointer">
                 Home
               </li>
