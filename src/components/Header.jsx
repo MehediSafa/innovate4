@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-white shadow-md sticky top-0 z-[999]">
       <Container>
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
@@ -34,7 +34,7 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden lg:flex w-2/4 justify-center">
-            <ul className="flex space-x-8 items-center">]\
+            <ul className="flex space-x-8 items-center">
               
               <li className="font-semibold text-lg text-black hover:text-[#FF7628] cursor-pointer">
                 Home
